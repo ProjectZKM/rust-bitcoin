@@ -1548,7 +1548,7 @@ mod tests {
         let sk =
             PrivateKey::from_str("cVt4o7BGAig1UXywgGSmARhxMdzP5qvQsxKkSsc1XEkw3tDTQFpy").unwrap();
         let want =
-            "PrivateKey { compressed: true, network: Test, inner: SecretKey(#32014e414fdce702) }";
+            "PrivateKey { compressed: true, network: Test, inner: SecretKey(#7217ac58fbad8880) }";
         let got = format!("{:?}", sk);
         assert_eq!(got, want)
     }
